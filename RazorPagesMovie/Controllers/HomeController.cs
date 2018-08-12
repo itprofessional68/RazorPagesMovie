@@ -24,7 +24,7 @@ namespace RazorPagesMovie.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "This is your contact page. Don't mess it up!";
 
             return View();
         }
